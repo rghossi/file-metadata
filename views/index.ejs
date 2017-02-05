@@ -1,0 +1,13 @@
+<html>
+  <body>
+    Submit a file to view its filesize.<hr/>
+    <form ref='uploadForm' 
+      id='uploadForm' 
+      action=<%= postUrl %>
+      method='post' 
+      encType="multipart/form-data">
+        <input type="file" name="sampleFile" />
+        <input type='submit' value='Upload!' />
+    </form>     
+  </body>
+</html>
