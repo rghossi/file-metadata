@@ -38,4 +38,7 @@ jspm_packages
 
 #misc
 .DS_Store
-uploads/
+
+#exclude uploads but keep directory
+uploads/*
+!uploads/.gitkeep
